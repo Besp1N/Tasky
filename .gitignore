@@ -1,0 +1,25 @@
+# .NET Core build artifacts
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+
+# Rider / Visual Studio Code / VS
+.idea/
+.vscode/
+*.csproj.user
+
+# EF Core
+**/Migrations/*Snapshot.cs
+**/Migrations/*Designer.cs
+
+# Logs / config
+*.log
+.env
+*.db
+
+# Test results
+TestResults/
+*.coverage
+*.trx
